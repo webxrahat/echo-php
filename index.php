@@ -7,8 +7,44 @@
 </head>
 <body>
     <?php
-    echo "hello world"
-    
+    $name = "hello world This is";
+    echo $name;
+    echo $name;
+    echo phpversion();
     ?>
+<h1>This is Heading Line</h1>
+
+<?php
+$color= "red";
+$is="my";
+$fav="color";
+echo $color; 
+echo  $is;
+echo $fav;
+?>
+
+<?php
+
+$name="Md Rahat Islam";
+$address="Jashore";
+
+echo $name;
+echo $address;
+
+?>
+
+
+<?php
+$x=15;
+$y=14;
+$z= 15;
+
+echo $x + $y + $z. "br". "sum";
+?>
+
+
+
+
+
 </body>
 </html>
