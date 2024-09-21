@@ -47,6 +47,10 @@ $b = "in";
 $x = strrpos($a, $b);
 echo "<br>". $x;
 
+//Create UPPERCASE in array
+$x = "all text are lower case";
+$y = $x;
+echo "<br>". strtoupper($y) ;
 
 
 
