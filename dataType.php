@@ -36,6 +36,16 @@ echo "<br>". str_word_count($y);
 $y = "This is most commonly use most sentance";
 echo "<br>". strpos("HelloThis world!", "world");
 
+$a = "This is real check";
+$b = "real";
+$c = strpos($a, $b);
+echo "<br>".$c;
+
+//Find Revarse in array
+$a = "Check in revarse in array";
+$b = "in";
+$x = strrpos($a, $b);
+echo "<br>". $x;
 
 
 
