@@ -48,9 +48,23 @@ $x = strrpos($a, $b);
 echo "<br>". $x;
 
 //Create UPPERCASE in array
-$x = "all text are lower case";
+$x = "all text are Upper case";
 $y = $x;
 echo "<br>". strtoupper($y) ;
+
+//Create full description in Lowwer case
+
+$a = "all text are Lower case";
+$b = $a;
+
+echo "<br>" . strtolower($b);
+
+//Replace String 
+$x = "This is a word add";
+$y = $x;
+
+echo "<br>". str_replace("add", "Two", $y);
+
 
 
 
