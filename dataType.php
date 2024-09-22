@@ -66,11 +66,84 @@ $y = $x;
 echo "<br>". str_replace("add", "Two", $y);
 
 
+//Revarse Sentance in the array
+$x = "This a sentance in the text";
+$y = $x;
+
+echo "<br>";
+echo "<br>". $x;
+
+echo "<br>". strrev($x);
+
+//Trim in a sentance
+
+
+$a = "   This is trim function";
+
+
+echo "<br>";
+ 
+echo "<br>". trim($a);
+echo "<br>";
+echo "<br>";
+echo "<input value='". trim($a) ."'>";
+echo "<br>";
+echo "<br>";
+echo "<input value='". $a ."'>";
+
+echo "<br>";
+echo "<br>";
+
+$x = "Hi This is the Answer we says";
+// $g = "www.yourcompany.com";
+$g = "22/09/24";
+$y = explode("  ", $x);
+$z = explode("/", $g);
+echo "<br>";
+echo "<br>";
+print_r($z);
+echo "<br>";
+echo "<br>";
+print_r($y);
+
+
+$x = "MD RAHAT ISLAM";
+$y = explode(" ", $x);
+
+echo ("<br>");
+
+echo ("<br>");
+print_r($y);
+
+
+
+
 
 
 
 
 // 2, Integer 
+
+// Check if the variable is numeric  
+
+echo "<br>";
+$x = 5985;
+var_dump(is_numeric($x));
+
+echo "<br>";
+
+$x = "5985";
+var_dump(is_numeric($x));
+
+echo "<br>";
+
+$x = "59.85" + 100;
+var_dump(is_numeric($x));
+
+echo "<br>";
+
+$x = "Hello";
+var_dump(is_numeric($x));
 // 3, Boolean 
 // 4, Float
 // 5, Array 
