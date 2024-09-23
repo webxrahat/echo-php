@@ -151,6 +151,28 @@ var_dump(is_numeric($x));
 // 7, NULL
 // 8, Resource
 
+
+echo "<br>";
+//casting in php
+$a = 5;       // Integer
+$b = 5.34;    // Float
+$c = "hello"; // String
+$d = false;   // Boolean
+$e = NULL;    // NULL
+
+$a = (string) $a;
+$b = (int) $b;
+$c = (float) $c;
+$d = (bool) $d;
+$e = (string) $e;
+
+var_dump($a);
+var_dump($b);
+var_dump($c);
+var_dump($d);
+var_dump($e);
+
+
    
 
 
