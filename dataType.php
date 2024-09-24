@@ -173,7 +173,12 @@ var_dump($d);
 var_dump($e);
 
 
-   
+// PHP math function 
+
+//PHP pi()
+echo "<br>";
+
+echo (pi());
 
 
 
