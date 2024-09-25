@@ -183,7 +183,32 @@ echo (pi());
 //MAX, MIN function
 
 echo "<br>";
-$a = [2, 5, 9, 3, 3, 12, 10];
+$a = [12, 5, 9, 3, 3, 12, 10];
+
+echo "<br>";
+echo min($a);
+
+echo "<br>";
+$a = [12, 5, 9, 3, 3, 12, 10];
+
+echo "<br>";
+echo max($a);
+
+echo "<br>";
+echo(abs(-6.7));
+
+echo "<br>";
+echo(sqrt(64) . "<br>");
+
+echo(round(1.40) . "<br>");
+echo(round(1.60));
+
+echo(rand() . "<br>");
+echo(rand() . "<br>");
+echo(rand(10, 100). "<br>");
+echo(rand(10, 100). "<br>");
+
+
 
 
 
