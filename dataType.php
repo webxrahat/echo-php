@@ -180,6 +180,11 @@ echo "<br>";
 
 echo (pi());
 
+//MAX, MIN function
+
+echo "<br>";
+$a = [2, 5, 9, 3, 3, 12, 10];
+
 
 
 
