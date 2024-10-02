@@ -19,7 +19,8 @@
     echo "This is my name: {$name} and this is my Age: {$age} and this is my address: {$address} <br>";
     echo "This is my name:" . "$name" . "and this is my Age:" . "$age" . "and this is my address: " . "{$address}." . " <br>";
     echo "This is my name: strtoupper($name) and this is my Age: var_dump(is_int ($age)) and this is my address: strtoupper{$address} <br>";
-    printf ("This is my name: %s and this is my Age: %s and this is my address: %s ", strtoupper($name), var_dump(is_int($age)), $address);
+    printf ("This is my name: %s and this is my Age: %s and this is my address: %s ", strtoupper($name), var_dump(is_int($age)), $address ."<br>");
+    printf ("This is my name: %s and this is my Age: %d and this is my address: %s ", strtoupper($name), $age, $address);
     
     ?>
 
