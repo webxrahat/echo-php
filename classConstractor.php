@@ -26,11 +26,30 @@
     echo $per1-> describe()."<br>";
  
 
-    // class 
+    // construct function
+
+    class Office{
+        public $roomName, $color, $size;
+        function __construct($r,$c,$s){
+            $this->r = $r."<br>";
+            $this->c = $c."<br>";
+            $this->s = $s;
+        }
+        function robo(){
+            echo $this->r. $this->c. $this->s;
+        }
+
+    }
+$off1= new Office("Rahat", "Red", 80);
+    
+$off1-> robo();
 
 
-    
-    
+
+
+
+
+
     ?>
 </body>
 </html>
