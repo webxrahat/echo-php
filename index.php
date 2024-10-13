@@ -15,7 +15,6 @@
     </div>
 
     <div class="col-10 mx-auto">
-
         <table class="table table-hover">
             <thead>
                 <tr>
@@ -44,7 +43,6 @@
                     <td>@fat</td>
                     <td>@fat</td>
                 </tr>
-
             </tbody>
         </table>
     </div>
