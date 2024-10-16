@@ -29,7 +29,6 @@
 
 
             <input class="inpu" type="text" name="name" placeholder="user name">
-            <input class="inpu" type="text" name="age" placeholder="age">
             <input class="btn" type="submit" name="save" value="submit">
 
 
@@ -37,19 +36,10 @@
 
         <?php
         
-        if(isset($_POST['save'])){
+        if(isset($_POST['name'])){
              echo $_POST['name']. "<br>";
-             echo $_POST['age']. "<br>";
+             
         }
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
         
         ?>
