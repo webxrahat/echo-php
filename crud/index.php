@@ -11,7 +11,10 @@
 <body>
     <div class="col-10 mx-auto bg-primary p-2">
         <h1 class="fs-3">All USERS</h1>
-        <button type="button btn-primary">Add User</button>
+        <form action="">
+            <input type="text">
+            <button type="submit" class="btn-warning">Add User</button>
+        </form>
     </div>
 
     <div class="col-10 mx-auto">
