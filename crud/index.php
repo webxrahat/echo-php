@@ -9,6 +9,22 @@
 </head>
 
 <body>
+    <?php
+
+    $conn= mysqli_connect("localhost", "root", "", "crud") or die("connection faild");
+
+    $sql = "SELECT * FROM people JOIN studentlass WHERE people.sclass = studentlass.cid";
+
+
+    $result= mysqli_query($conn, $sql) or die("Unsuccessful");
+
+    if(mysqli_num_rows($result) > 0){
+
+   
+
+    ?>
+
+
     <div class="col-10 mx-auto bg-primary p-2">
         <h1 class="fs-3">All USERS</h1>
         <form action="">
@@ -30,26 +46,27 @@
                 </tr>
             </thead>
             <tbody>
+                <?php
+
+                while ($row= mysqli_fetch_assoc($result)) {
+                    # code...
+               
+                ?>
                 <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
+                    <th scope="row"><?php echo $row['sid'];?></th>
+                    <td><?php echo $row['sid'];?></td>
+                    <td><?php echo $row['sname'];?></td>
+                    <td><?php echo $row['saddress'];?></td>
+                    <td><?php echo $row['sclass'];?></td>
+                    <td><?php echo $row['sphone'];?></td>
                 </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                    <td>@fat</td>
-                    <td>@fat</td>
-                </tr>
+
+                <?php  } ?>
+
             </tbody>
         </table>
     </div>
-
+    <?php  } ?>
 
 </body>
 
