@@ -12,6 +12,7 @@
     <?php
 
     $conn= mysqli_connect("localhost", "root", "", "crud") or die("connection faild");
+    // include "config.php";
 
     $sql = "SELECT * FROM people JOIN studentlass WHERE people.sclass = studentlass.cid";
 
@@ -27,8 +28,11 @@
 
     <div class="col-10 mx-auto bg-primary p-2">
         <h1 class="fs-3">All USERS</h1>
-        <form action="">
-            <input type="text">
+        <form action="save.php" method="post">
+            <input type="text" name="sname" placeholder="Name">
+            <input type="text" name="saddress" placeholder="Address">
+            <input type="text" name="sclass" placeholder="Class">
+            <input type="text" name="sphone" placeholder="Phone">
             <button type="submit" class="btn-warning">Add User</button>
         </form>
     </div>
@@ -37,12 +41,12 @@
         <table class="table table-hover">
             <thead>
                 <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                    <th scope="col">Handle</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col">ID</th>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Class</th>
+                    <th scope="col">Phone</th>
                 </tr>
             </thead>
             <tbody>

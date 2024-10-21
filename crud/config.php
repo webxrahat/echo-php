@@ -2,12 +2,9 @@
 $serverName= "localhost";
 $userName= "root";
 $password="";
-$bdName="";
+$bdName="crud";
 
-if ($conn= mysqli_connect($serverName, $userName, $password, $bdName)){
-    echo "Database Connect";
-}else{
-    die("Database Could not Connect");
-};
+$conn= mysqli_connect($serverName, $userName, $password, $bdName) or die("Database Could not Connect");
+
 
 ?>
