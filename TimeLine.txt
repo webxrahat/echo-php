@@ -1,0 +1,75 @@
+Here’s a combined 6-month roadmap that includes JavaScript/jQuery, ensuring a well-rounded WordPress development journey:
+
+---
+
+Month 1: Strengthen Core PHP and MySQL
+Goal: Build a solid foundation in PHP and MySQL.
+  Tasks:
+    - Deepen knowledge of PHP OOP (Object-Oriented Programming).
+    - Learn MySQL queries: joins, subqueries, indexing.
+    - Build a simple CRUD application using PHP and MySQL.
+    - Focus on security: SQL injection, data sanitization, and prepared statements.
+    - Date 24 october
+
+---
+
+Month 2: WordPress Theme Development
+Goal: Begin developing custom WordPress themes.
+  Tasks:
+    - Understand the WordPress theme hierarchy, template tags, and the loop.
+    - Build a basic custom theme using HTML, CSS, and PHP.
+    - Learn to create child themes to modify existing themes.
+    - Explore enqueueing scripts/styles correctly in WordPress.
+
+---
+
+Month 3: JavaScript, jQuery, and Advanced Theme Development
+Goal: Integrate JavaScript/jQuery and advance in theme development.
+  Tasks:
+    - Deepen knowledge of JavaScript: DOM manipulation, ES6+ features.
+    - Learn jQuery for WordPress: form validation, DOM manipulation, animations.
+    - Implement AJAX with WordPress for dynamic content (AJAX search or form submissions).
+    - Explore custom post types, custom taxonomies, and dynamic WordPress content.
+    - Start working with the WordPress REST API to fetch and display content asynchronously.
+
+---
+
+Month 4: Plugin Development & Custom Gutenberg Blocks
+Goal: Start creating WordPress plugins and building custom Gutenberg blocks.
+  Tasks:
+    - Learn WordPress plugin structure and develop a simple plugin using OOP principles.
+    - Use actions and filters to modify WordPress behavior.
+    - Learn to create custom Gutenberg blocks using JavaScript/React.
+    - Build a small project to integrate a custom Gutenberg block with your theme.
+
+---
+
+Month 5: WooCommerce & Advanced Customization
+Goal: Customize WordPress and WooCommerce for e-commerce.
+  Tasks:
+    - Set up WooCommerce, customize product pages, and integrate custom features.
+    - Extend WooCommerce using actions, filters, and custom templates.
+    - Explore advanced customization: custom fields, meta boxes, and theme options using the Customizer API.
+    - Build a simple WooCommerce store to practice these skills.
+
+---
+
+Month 6: Testing, CI/CD, and Advanced Workflow
+Goal: Integrate testing and automated deployment into your workflow.
+  Tasks:
+    - Learn to write tests using PHPUnit and WP_Mock.
+    - Set up CI/CD pipelines using GitHub Actions or Travis CI to automate testing and deployment.
+    - Focus on code optimization and performance tuning for your themes and plugins.
+    - Refactor your project code to ensure it's modular and scalable.
+
+---
+
+Final Project:
+Goal: Build and deploy a complete WordPress website.
+  Tasks:
+    - Develop a full WordPress site with custom themes, plugins, and WooCommerce integration.
+    - Set up automated testing and continuous deployment for the project.
+
+---
+
+This roadmap gives you a step-by-step guide over 6 months to master WordPress development, covering front-end and back-end skills, along with advanced WordPress customization and testing practices.

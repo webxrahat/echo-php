@@ -15,10 +15,6 @@ include 'header.php';
       
     ?>
 
-
-
-
-
     <table cellpadding="7px">
         <thead>
             <th>Id</th>
